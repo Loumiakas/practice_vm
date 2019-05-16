@@ -20,7 +20,7 @@
 6.  Once installation is finished, use a Vagrant secure shell command to
     login into the guest machine `vagrant ssh`.
 7.  You should now be logged in into a guest machine, navigate to homework
-    directory containing Python excercises with `cd homework` command.
+    directory containing Python exercises with `cd homework` command.
 8.  List files in homework directory with `ls` command.
 9.  Execute unit tests **test.py** python script with `./test.py` command.
 10. Exit **Git Bash** application. 
