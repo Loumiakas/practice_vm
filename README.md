@@ -33,3 +33,15 @@
 4. Login into guest machine with `vagrant ssh` command.
 5. You should now be logged into the guest machine and inside $HOME directory
    (`~/`).
+
+#### Validating Homework implementation with Python Unit Test Framework
+1.  Implement logic for one or more homework method definitions, in this
+    example we are going to use function ***is_odd(x)*** in file
+    `homework.py`.
+2.  Once you are happy with the code, run a test defined in
+    `tests.py` file to validate the implementation. This can be done by
+    running following command: `./tests.py ExeTests.test_is_odd`, where
+    ***ExeTests*** is test class name, ***test_is_odd*** is function that
+    has logic to validate implementation of ***is_odd(x)***.
+3.  If test fails, AssertionError will be issued, detailing mismatches between
+    expected and actual output of the function.
