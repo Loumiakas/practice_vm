@@ -64,6 +64,7 @@ gist page.
 2.  Open ***Git Bash*** application.
 3.  Navigate to ***practice_vm*** directory.
 4.  Pull remote changes from Github with `git pull`.
-5.  Re-provision VM using `vagrant provision`.
-6.  Wait for the process to finish.
-7.  You should now have an up-to-date VM.
+5.  Start the VM with `vagrant up`.
+6.  Re-provision VM using `vagrant provision`.
+7.  Wait for the process to finish.
+8.  You should now have an up-to-date VM.
