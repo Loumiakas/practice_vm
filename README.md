@@ -45,3 +45,25 @@
     has logic to validate implementation of ***is_odd(x)***.
 3.  If test fails, AssertionError will be issued, detailing mismatches between
     expected and actual output of the function.
+
+#### Using 'gist' executable script
+1.  Gist is used for conveniently storing snippets of code or files in Github's
+gist page.
+2.  In order to use the gist, you must first login to the Github account using
+    your credentials by using command `gist --login`
+3.  Once logged in, you are able to upload any file to the remote gist
+    location on Github with `gist <filename>`
+4.  Browse uploaded gists by navigating to the https://gist.github.com in your
+    browser.
+
+#### Updating vagrant scripts
+1.  When updates are available on Github page, it is possible to update local
+    project area with those changes. In order to do that, we must pull latest
+    changes from git repository and provision VM using new script logic
+    defined in the Vagrantfile.
+2.  Open ***Git Bash*** application.
+3.  Navigate to ***practice_vm*** directory.
+4.  Pull remote changes from Github with `git pull`.
+5.  Re-provision VM using `vagrant provision`.
+6.  Wait for the process to finish.
+7.  You should now have an up-to-date VM.
